@@ -1,0 +1,17 @@
+Source: huayra-desktop-pba
+Section: x11
+Priority: optional
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
+Build-Depends:  debhelper (>= 13)
+Standards-Version: 4.5.1
+Homepage: https://huayra.educar.gob.ar
+
+Package: huayra-desktop-pba
+Architecture: all
+Depends: ${misc:Depends},
+  huayra-grub-themes-crux (>= 1.20),
+  huayra-desktop-mate-settings (>= 5.0)
+Description: Opciones de configuración para escritorio PBA (Rosas)
+ Este paquete contiene las opciones para personalizar el desktop 
+ para el proyecto de PBA (Rosas).
+

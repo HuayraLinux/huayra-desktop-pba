@@ -1,0 +1,16 @@
+#! /bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+    dconf update
+    echo "Restableciendo preferencias por defecto de Firefox"
+    cp -f /etc/huayra-pba/firefox/huayra.js /opt/firefox/defaults/pref/
+    cp -f /etc/huayra-pba/firefox/huayra.cfg /opt/firefox/
+    mkdir -p /opt/firefox/distribution
+    cp -f /etc/huayra-pba/firefox/distribution.ini /opt/firefox/distribution/
+    cp -f /etc/huayra-pba/firefox/policies.json /opt/firefox/distribution/
+    echo "Instalación finalizada"
+
+fi
+
+#DEBHELPER#
