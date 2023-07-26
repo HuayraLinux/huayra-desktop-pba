@@ -1,3 +1,9 @@
+huayra-desktop-pba (1.1) unstable; urgency=medium
+
+  * fix nombre del theme
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 26 Jul 2023 15:44:08 -0300
+
 huayra-desktop-pba (1.0) unstable; urgency=medium
 
   * Version inicial
