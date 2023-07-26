@@ -10,7 +10,8 @@ Package: huayra-desktop-pba
 Architecture: all
 Depends: ${misc:Depends},
   huayra-grub-themes-crux (>= 1.20),
-  huayra-desktop-mate-settings (>= 5.0)
+  huayra-desktop-mate-settings (>= 5.0),
+  firefox-installer
 Description: Opciones de configuración para escritorio PBA (Rosas)
  Este paquete contiene las opciones para personalizar el desktop 
  para el proyecto de PBA (Rosas).
